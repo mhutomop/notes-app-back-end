@@ -4,7 +4,8 @@
   "description": "Learn to create a back-end application for beginner. Dicoding training: Belajar Membuat Aplikasi Back-End untuk Pemula (Membangun RESTful API menggunakan Hapi).",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.js",
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
   "repository": {
