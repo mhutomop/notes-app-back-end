@@ -1,0 +1,23 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "Learn to create a back-end application for beginner. Dicoding training: Belajar Membuat Aplikasi Back-End untuk Pemula (Membangun RESTful API menggunakan Hapi).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhutomop/notes-app-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhutomop/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/mhutomop/notes-app-back-end#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
