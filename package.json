@@ -4,7 +4,8 @@
   "description": "Learn to create a back-end application for beginner. Dicoding training: Belajar Membuat Aplikasi Back-End untuk Pemula (Membangun RESTful API menggunakan Hapi).",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/mhutomop/notes-app-back-end#readme",
   "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.19"
   }
 }
